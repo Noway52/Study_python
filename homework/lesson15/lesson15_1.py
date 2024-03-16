@@ -1,4 +1,4 @@
-class Transport:
+class Transport(object):
 
     def __init__(self, name, max_speed, mileage):
         self.name = name
